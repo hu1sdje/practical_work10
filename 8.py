@@ -1,11 +1,3 @@
-'''
-with open('input.txt', 'r') as f:
-    lines = f.readlines()
-
-days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-with open('output.txt', 'w') as f:
-    for i, steps in enumerate(lines):
-'''
 with open('input.txt', 'r') as file:
     steps_data = file.readlines()
 
